@@ -1,4 +1,4 @@
-![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+![MasterHead](https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/Beige%20Aesthetic%20Minimalist%20Business%20Real%20Estate%20Facebook%20Cover.png)
 
 <h1 align="center">Hi 👋, I'm Dibyadyuti Das</h1>
 <h3 align="center">A passionate developer from India</h3>
