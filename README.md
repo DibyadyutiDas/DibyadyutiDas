@@ -17,8 +17,7 @@
 - 🌱 I’m currently learning **new technologies**
 - 👯 I’m looking to collaborate on **open source projects**
 - 🤝 I’m looking for help with **innovative ideas**
-- 👨‍💻 All of my projects are available at 
- **<a href="https://dibyadyutidas.github.io/portfolio/" target="blank">**
+- 👨‍💻 All of my projects are available at **https://dibyadyutidas.github.io/portfolio/**
 - 💬 Ask me about **anything tech-related**
 - 📫 How to reach me **dibyadyutidas0@gmail.com**
 - ⚡ Fun fact **I love to explore new places**
