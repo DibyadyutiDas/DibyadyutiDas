@@ -1,121 +1,108 @@
 ![MasterHead](https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/Beige%20Aesthetic%20Minimalist%20Business%20Real%20Estate%20Facebook%20Cover.png)
 
 <h1 align="center">Hi 👋, I'm Dibyadyuti Das</h1>
-<h3 align="center">A passionate developer from India</h3>
+<h3 align="center">A Passionate Developer from India 🚀</h3>
 
-<img align="right" alt="Coding" width="400" src="https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/programmer.gif">
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dibyadyutidas&label=Profile%20views&color=0e75b6&style=flat" alt="dibyadyutidas" /> </p>
-
-<p align="left"> 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dibyadyutidas&label=Profile%20Views&color=blueviolet&style=plastic" alt="Profile Views" />
   <a href="https://twitter.com/dibyadyuti0" target="_blank">
-    <img src="https://img.shields.io/twitter/follow/dibyadyuti0?logo=twitter&style=for-the-badge" alt="dibyadyuti0" />
-  </a> 
-</p>
-
-- 🔭 I’m currently working on **exciting projects**
-- 🌱 I’m currently learning **new technologies**
-- 👯 I’m looking to collaborate on **open source projects**
-- 🤝 I’m looking for help with **innovative ideas**
-- 👨‍💻 All of my projects are available at **https://dibyadyutidas.github.io/portfolio/**
-- 💬 Ask me about **anything tech-related**
-- 📫 How to reach me **dibyadyutidas0@gmail.com**
-- ⚡ Fun fact **I love to explore new places**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://twitter.com/dibyadyuti0" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dibyadyuti0" height="30" width="40" />
-  </a>
-  <a href="https://linkedin.com/in/dibyadytutidas" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dibyadytutidas" height="30" width="40" />
-  </a>
-  <a href="https://fb.com/dibyadytutidas" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dibyadytutidas" height="30" width="40" />
-  </a>
-  <a href="https://instagram.com/d_i_b_y_a_d_y_u_t_i_" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="d_i_b_y_a_d_y_u_t_i_" height="30" width="40" />
-  </a>
-  <a href="https://www.youtube.com/c/d_i_b_y_a_d_y_u_t_i" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="d_i_b_y_a_d_y_u_t_i" height="30" width="40" />
+    <img src="https://img.shields.io/twitter/follow/dibyadyuti0?logo=twitter&style=plastic&color=blue" alt="Twitter Follow" />
   </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> 
-  </a> 
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-  </a> 
-  <a href="https://flutter.dev" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
-  </a> 
-  <a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> 
-  </a> 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
-  </a> 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-  </a> 
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-  </a> 
-  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> 
-  </a> 
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-  </a> 
-  <a href="https://unity.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> 
-  </a> 
-</p>
+---
 
-<!-- GitHub Stats -->
-<h2 align="center">📊 GitHub Stats</h2>
+### 🌟 Current Focus
+- 🔭 Working on **Exciting Projects**
+- 🌱 Exploring **New Technologies** 
+- 🤝 Seeking Collaboration on **Open-Source Initiatives**
+- 💡 Open to **Innovative Ideas and Opportunities**
+
+### 🌐 Explore More
+- 👨‍💻 Portfolio: [Dibyadyuti Das Portfolio](https://dibyadyutidas.github.io/portfolio/)
+- 📧 Email: **dibyadyutidas0@gmail.com**
+- 🎉 Fun Fact: **I love exploring new places!**
+
+---
+
+<h3 align="center">🌟 Connect with Me</h3>
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=dibyadyutidas&show_icons=true&locale=en&theme=radical" alt="GitHub Stats for dibyadyutidas" />
+  <a href="https://twitter.com/dibyadyuti0" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="Twitter" height="40" width="40" />
+  </a>
+  <a href="https://linkedin.com/in/dibyadytutidas" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" height="40" width="40" />
+  </a>
+  <a href="https://fb.com/dibyadytutidas" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" height="40" width="40" />
+  </a>
+  <a href="https://instagram.com/d_i_b_y_a_d_y_u_t_i_" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" height="40" width="40" />
+  </a>
+  <a href="https://www.youtube.com/c/d_i_b_y_a_d_y_u_t_i" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube" height="40" width="40" />
   </a>
 </p>
 
-<!-- GitHub Streak Stats -->
-<h2 align="center">🔥 GitHub Streak Stats</h2>
+---
+
+<h3 align="center">🛠️ Languages and Tools</h3>
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dibyadyutidas&theme=radical" alt="GitHub Streak Stats for dibyadyutidas" />
+  <a href="https://developer.android.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/android-os.png" alt="Android" height="40" width="40" />
+  </a>
+  <a href="https://aws.amazon.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" height="40" width="40" />
+  </a>
+  <a href="https://www.w3schools.com/cpp/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++" height="40" width="40" />
+  </a>
+  <a href="https://www.w3schools.com/css/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" height="40" width="40" />
+  </a>
+  <a href="https://www.mysql.com/" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png" alt="MySQL" height="40" width="40" />
+  </a>
+  <a href="https://reactjs.org/" target="_blank">
+    <img src="https://img.icons8.com/plasticine/100/000000/react.png" alt="React" height="40" width="40" />
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" height="40" width="40" />
   </a>
 </p>
 
-<!-- GitHub Top Languages -->
-<h2 align="center">🚀 Top Languages</h2>
+---
+<h2 align="center" style="font-family: 'Arial', sans-serif; color: #4A90E2;">✨ GitHub Insights</h2>
+
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dibyadyutidas&layout=compact&locale=en&theme=radical" alt="Top Languages for dibyadyutidas" />
+  <img src="https://img.shields.io/github/followers/dibyadyutidas?style=social" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/dibyadyutidas?style=social" alt="GitHub Stars" />
+</p>
+
+<h3 align="center" style="font-family: 'Arial', sans-serif; color: #7B4B8E;">🚀 GitHub Overview</h3>
+<p align="center">
+  <a href="https://github.com/dibyadyutidas" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api?username=dibyadyutidas&show_icons=true&hide_title=true&count_private=true&theme=merko&bg_color=rgba(240, 240, 240, 0.8)" alt="GitHub Stats" width="80%" />
+  </a>
+</p>
+
+<h3 align="center" style="font-family: 'Arial', sans-serif; color: #FF6F61;">🔥 Developer Activity</h3>
+<p align="center">
+  <a href="https://git.io/streak-stats" target="_blank">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=dibyadyutidas&theme=merko&hide_border=true&sideLabels=transparent&currStreakLabel=green&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" alt="Developer Streak" width="80%" />
+  </a>
+</p>
+
+<h3 align="center" style="font-family: 'Arial', sans-serif; color: #7B8A8C;">🌐 Language Contributions</h3>
+<p align="center">
+  <a href="https://github.com/dibyadyutidas" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dibyadyutidas&layout=compact&theme=merko&langs_count=6&bg_color=rgba(240, 240, 240, 0.8)" alt="Top Languages" width="80%" />
+  </a>
+</p>
+
+<h3 align="center" style="font-family: 'Arial', sans-serif; color: #F8C52E;">📈 Contributions Overview</h3>
+<p align="center">
+  <a href="https://github.com/dibyadyutidas" target="_blank">
+    <img src="https://github-readme-activity-graph.cyclic.app/graph?username=dibyadyutidas&theme=react&bg_color=rgba(240, 240, 240, 0.8)" alt="Contributions Graph" width="80%" />
   </a>
 </p>
