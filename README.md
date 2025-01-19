@@ -19,7 +19,7 @@
 - 💡 Open to **Innovative Ideas and Opportunities**
 
 ### 🌐 Explore More
-- 👨‍💻 Portfolio: [Dibyadyuti Das Portfolio](https://dibyadyutidas.github.io/portfolio/)
+- 👨‍💻 Portfolio: [Dibyadyuti/Portfolio](https://dibyadyutidas.github.io/portfolio/)
 - 📧 Email: **dibyadyutidas0@gmail.com**
 - 🎉 Fun Fact: **I love exploring new places!**
 
