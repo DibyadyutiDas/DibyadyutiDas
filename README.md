@@ -45,42 +45,10 @@
 
 ---
 
-<h3 align="center">Languages and Tools</h3>
-<p align="center">
-    <a href="https://developer.android.com" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/android-os.png" alt="Android" height="40" width="40" />
-    </a>
-    <a href="https://aws.amazon.com" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" height="40" width="40" />
-    </a>
-    <a href="https://www.w3schools.com/cpp/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++" height="40" width="40" />
-    </a>
-    <a href="https://www.w3schools.com/css/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" height="40" width="40" />
-    </a>
-    <a href="https://www.mysql.com/" target="_blank">
-        <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png" alt="MySQL" height="40" width="40" />
-    </a>
-    <a href="https://reactjs.org/" target="_blank">
-        <img src="https://img.icons8.com/plasticine/100/000000/react.png" alt="React" height="40" width="40" />
-    </a>
-    <a href="https://git-scm.com/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" height="40" width="40" />
-    </a>
-    <a href="https://www.java.com/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java" height="40" width="40" />
-    </a>
-    <a href="https://nodejs.org/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" height="40" width="40" />
-    </a>
-    <a href="https://www.python.org/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" height="40" width="40" />
-    </a>
-    <a href="https://www.w3schools.com/c/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C" height="40" width="40" />
-    </a>
-</p>
+<h3 align="center"> My Toolkit </h3>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=cpp,python,html,css,js,nodejs,react,mysql,git,linux,blender" alt="Skills" />
+</div>
 
 ---
 <h2 align="center" style="font-family: 'Arial', sans-serif; color: #4A90E2;">GitHub Insights</h2>
@@ -89,16 +57,4 @@
     <img src="https://img.shields.io/github/stars/dibyadyutidas?style=social" alt="GitHub Stars" />
 </p>
 
-<h3 align="center" style="font-family: 'Arial', sans-serif; color: #4B9B8E;">GitHub Overview</h3>
-<p align="center">
-        <a href="https://github.com/dibyadyutidas" target="_blank">
-                <img src="https://github-readme-stats.vercel.app/api?username=dibyadyutidas&show_icons=true&hide_title=true&count_private=true&theme=dark&bg_color=rgba(240, 240, 240, 0.8)" alt="GitHub Stats" width="80%" />
-        </a>
-</p>
 
-<h3 align="center" style="font-family: 'Arial', sans-serif; color: #7F8C8D;">Language Contributions</h3>
-<p align="center">
-        <a href="https://github.com/dibyadyutidas" target="_blank">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dibyadyutidas&layout=compact&theme=dark&langs_count=6&bg_color=rgba(240, 240, 240, 0.8)" alt="Top Languages" width="80%" />
-        </a>
-</p>
