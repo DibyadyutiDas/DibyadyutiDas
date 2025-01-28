@@ -47,7 +47,7 @@
 
 <h3 align="center"> My Toolkit </h3>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=c,cpp,python,html,css,js,nodejs,react,mysql,git,linux,blender" alt="Skills" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,python,html,css,js,nodejs,react,mysql,blender,md,git,github,vscode,linux,windows" alt="Skills" />
 </div>
 
 ---
