@@ -59,10 +59,10 @@
 ---
 <h2 align="center" style="font-family: 'Arial', sans-serif; color: #4A90E2;">GitHub Insights</h2>
 <p align="center">
-    <a href="https://github.com/DibyadyutiDas?tab=followers" target="_blank">
+    <a href="https://github.com/DibyadyutiDas?tab=followers">
     <img src="https://img.shields.io/github/followers/dibyadyutidas?style=social" alt="GitHub Followers" />
 </a>
-    <a href="https://github.com/DibyadyutiDas?tab=stars" target="_blank">
+    <a href="https://github.com/DibyadyutiDas?tab=stars">
     <img src="https://img.shields.io/github/stars/dibyadyutidas?style=social" alt="GitHub Stars" />
     </a>
 </p>
