@@ -26,11 +26,11 @@
 
 <h3 align="center">Connect with Me</h3>
 <p align="center">
-    <a href="https://twitter.com/dibyadyuti0" target="_blank">
-        <img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="Twitter" height="40" width="40" />
-    </a>
     <a href="https://linkedin.com/in/dibyadytutidas" target="_blank">
         <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" height="40" width="40" />
+    </a>
+    <a href="https://leetcode.com/u/Dibyadyuti_Das/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" height="40" width="40" />
     </a>
     <a href="https://fb.com/dibyadytutidas" target="_blank">
         <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" height="40" width="40" />
