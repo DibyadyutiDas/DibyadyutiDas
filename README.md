@@ -45,16 +45,70 @@
 
 ---
 
+
+
 <h3 align="center"> My Toolkit </h3>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=c,cpp,java,python" alt="Skills" />
+    <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+        <img src="https://skillicons.dev/icons?i=c" alt="C" />
+    </a>
+    <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
+        <img src="https://skillicons.dev/icons?i=cpp" alt="C++" />
+    </a>
+    <a href="https://www.java.com/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+    </a>
+    <a href="https://www.python.org/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=python" alt="Python" />
+    </a>
 </div>
+
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,react,mysql,mongodb" alt="Skills" />
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+        <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+        <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+        <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
+    </a>
+    <a href="https://nodejs.org/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
+    </a>
+    <a href="https://react.dev/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=react" alt="React.js" />
+    </a>
+    <a href="https://www.mysql.com/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
+    </a>
+    <a href="https://www.mongodb.com/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" />
+    </a>
 </div>
+
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=md,git,github,vscode,linux,windows" alt="Skills" />
+    <a href="https://www.markdownguide.org/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=md" alt="Markdown" />
+    </a>
+    <a href="https://git-scm.com/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+    </a>
+    <a href="https://github.com/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+    </a>
+    <a href="https://code.visualstudio.com/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
+    </a>
+    <a href="https://www.linux.org/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
+    </a>
+    <a href="https://www.microsoft.com/en-us/windows" target="_blank">
+        <img src="https://skillicons.dev/icons?i=windows" alt="Windows" />
+    </a>
 </div>
+
+
 
 ---
 <h2 align="center" style="font-family: 'Arial', sans-serif; color: #4A90E2;">GitHub Insights</h2>
