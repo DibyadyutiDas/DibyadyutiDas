@@ -112,7 +112,6 @@
 </div>
 
 
-
 ---
 <h2 align="center" style="font-family: 'Arial', sans-serif; color: #4A90E2;">GitHub Insights</h2>
 <p align="center">
