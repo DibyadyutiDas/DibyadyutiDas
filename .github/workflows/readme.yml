@@ -14,6 +14,6 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@1.9.2
         with:
           commit_message: "Updated project list automatically"
-          feed_list: "https://api.github.com/Dibyadyuti Das/dibyadyutidas/repos"
+          feed_list: "https://api.github.com/users/dibyadyutidas/repos"
           template: "<tr><td><a href='{{link}}'><b>{{title}}</b></a></td><td>{{description}}</td><td>⭐ {{starCount}}</td></tr>"
           section_name: "📌 My Projects"
