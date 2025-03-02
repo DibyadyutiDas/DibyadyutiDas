@@ -11,14 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Fetch latest repositories
-        uses: lowlighter/metrics@latest
+        uses: jakejarvis/github-actions-markdown-table@v1
         with:
-          filename: "github-metrics.svg"
-          user: dibyadyutidas
-          template: classic
-          base: repositories
-          repositories: 100  # Fetch up to 100 repos
-          repositories_forks: yes  # Show forked repos
-          repositories_affiliations: owner, collaborator
-          config_order: repositories
-          commit_message: "Updated project list automatically"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          query: "https://api.github.com/users/dibyadyutidas/repos?sort=pushed&per_page=10"
+          filename: "README.md"
+          table_marker: "<!-- REPO-TABLE:START -->"
+          columns: "name,description,language,stargazers_count,updated_at"
