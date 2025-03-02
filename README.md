@@ -124,17 +124,15 @@
 
 
 <div align="center">
-## 📌 My Projects
-
+<h3 align="center"> 📌 My Projects </h3>
 <table>
   <tr>
     <th>🚀 Project</th>
     <th>📄 Description</th>
     <th>🏷 Language</th>
     <th>⭐ Stars</th>
-    <th>🔄 Last Updated</th>
   </tr>
-  <!-- REPO-TABLE:START -->
-  <!-- REPO-TABLE:END -->
+  <!-- BLOG-POST-LIST:START -->
+  <!-- BLOG-POST-LIST:END -->
 </table>
 </div>
