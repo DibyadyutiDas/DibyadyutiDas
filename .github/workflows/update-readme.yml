@@ -16,10 +16,8 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Fetch Latest Repositories
-        uses: gautamkrishnar/blog-post-workflow@master
+        uses: Readme-Workflows/recent-repos@v2.2.0
         with:
-          commit_message: "Updated project list automatically"
-          feed_list: "https://api.github.com/users/dibyadyutidas/repos?sort=updated&per_page=10"
-          max_post_count: 10
-          template: "<tr><td><a href='{{link}}'><b>{{title}}</b></a></td><td>{{description}}</td><td>{{language}}</td><td>⭐ {{starCount}}</td></tr>"
-          section_name: "📌 My Projects"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_COUNT: 10
+          TEMPLATE: "<tr><td><a href='{{repoUrl}}'><b>{{repoName}}</b></a></td><td>{{repoDesc}}</td><td>{{repoLang}}</td><td>⭐ {{repoStars}}</td><td>🔄 {{repoUpdated}}</td></tr>"
