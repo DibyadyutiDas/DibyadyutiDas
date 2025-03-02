@@ -15,10 +15,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch latest repositories
-        uses: gautamkrishnar/blog-post-workflow@1.9.3  # Use the latest version
+      - name: Fetch Latest Repositories
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           commit_message: "Updated project list automatically"
-          feed_list: "https://api.github.com/users/${{ github.repository_owner }}/repos"
-          template: "<tr><td><a href='{{link}}'><b>{{title}}</b></a></td><td>{{description}}</td><td>⭐ {{starCount}}</td></tr>"
+          feed_list: "https://api.github.com/users/dibyadyutidas/repos?sort=updated&per_page=10"
+          max_post_count: 10
+          template: "<tr><td><a href='{{link}}'><b>{{title}}</b></a></td><td>{{description}}</td><td>{{language}}</td><td>⭐ {{starCount}}</td></tr>"
           section_name: "📌 My Projects"
