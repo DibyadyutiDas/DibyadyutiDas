@@ -11,9 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Fetch latest repositories
-        uses: gautamkrishnar/blog-post-workflow@1.9.2
+        uses: lowlighter/metrics@latest
         with:
+          filename: "github-metrics.svg"
+          user: dibyadyutidas
+          template: classic
+          base: repositories
+          repositories: 100  # Fetch up to 100 repos
+          repositories_forks: yes  # Show forked repos
+          repositories_affiliations: owner, collaborator
+          config_order: repositories
           commit_message: "Updated project list automatically"
-          feed_list: "https://api.github.com/users/dibyadyutidas/repos"
-          template: "<tr><td><a href='{{link}}'><b>{{title}}</b></a></td><td>{{description}}</td><td>⭐ {{starCount}}</td></tr>"
-          section_name: "📌 My Projects"
