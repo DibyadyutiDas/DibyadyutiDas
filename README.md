@@ -126,6 +126,15 @@
 <div align="center">
 ## 📌 My Projects
 
-![GitHub Metrics](github-metrics.svg)
-
+<table>
+  <tr>
+    <th>🚀 Project</th>
+    <th>📄 Description</th>
+    <th>🏷 Language</th>
+    <th>⭐ Stars</th>
+    <th>🔄 Last Updated</th>
+  </tr>
+  <!-- REPO-TABLE:START -->
+  <!-- REPO-TABLE:END -->
+</table>
 </div>
