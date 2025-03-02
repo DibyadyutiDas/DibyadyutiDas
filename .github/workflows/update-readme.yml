@@ -1,0 +1,24 @@
+name: Update README with Latest Repositories
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at midnight (UTC)
+  workflow_dispatch:  # Allows manual execution
+
+permissions:
+  contents: write  # Allows updating README.md
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch latest repositories
+        uses: gautamkrishnar/blog-post-workflow@1.9.2
+        with:
+          commit_message: "Updated project list automatically"
+          feed_list: "https://api.github.com/users/${{ github.repository_owner }}/repos"
+          template: "<tr><td><a href='{{link}}'><b>{{title}}</b></a></td><td>{{description}}</td><td>⭐ {{starCount}}</td></tr>"
+          section_name: "📌 My Projects"
