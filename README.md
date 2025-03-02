@@ -125,13 +125,7 @@
 
 <div align="center">
 ## 📌 My Projects
-<table>
-  <tr>
-    <th>🚀 Project</th>
-    <th>📄 Description</th>
-    <th>⭐ Stars</th>
-  </tr>
-  <!-- BLOG-POST-LIST:START -->
-  <!-- BLOG-POST-LIST:END -->
-</table>
+
+![GitHub Metrics](github-metrics.svg)
+
 </div>
