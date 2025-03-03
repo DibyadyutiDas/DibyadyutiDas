@@ -4,11 +4,23 @@
 <h3 align="center">A Passionate Developer from India </h3>
 
 <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=dibyadyutidas&label=Profile%20Views&color=blueviolet&style=plastic" alt="Profile Views" />
-    <a href="https://twitter.com/dibyadyuti0" target="_blank">
-        <img src="https://img.shields.io/twitter/follow/dibyadyuti0?logo=twitter&style=plastic&color=blue" alt="Twitter Follow" />
-    </a>
+  <!-- Profile Views -->
+  <img src="https://komarev.com/ghpvc/?username=dibyadyutidas&label=Profile%20Views&color=blueviolet&style=flat-square" alt="Profile Views" />
+  <!-- GitHub Followers -->
+  <a href="https://github.com/DibyadyutiDas?tab=followers">
+    <img src="https://img.shields.io/github/followers/dibyadyutidas?style=flat-square&logo=github" alt="GitHub Followers" />
+  </a>
+  <!-- GitHub Stars -->
+  <a href="https://github.com/DibyadyutiDas?tab=stars">
+    <img src="https://img.shields.io/github/stars/dibyadyutidas?style=flat-square&logo=github" alt="GitHub Stars" />
+  </a> 
+  <!-- Email Badge -->
+  <a href="mailto:dibyadyutidas@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Me-blueviolet?style=flat-square&logo=gmail&logoColor=white" alt="Email Me" />
+  </a>
 </p>
+
+
 
 ---
 
@@ -112,15 +124,6 @@
 </div>
 
 ---
-<h2 align="center" style="font-family: 'Arial', sans-serif; color: #4A90E2;">GitHub Insights</h2>
-<p align="center">
-    <a href="https://github.com/DibyadyutiDas?tab=followers">
-    <img src="https://img.shields.io/github/followers/dibyadyutidas?style=social" alt="GitHub Followers" />
-</a>
-    <a href="https://github.com/DibyadyutiDas?tab=stars">
-    <img src="https://img.shields.io/github/stars/dibyadyutidas?style=social" alt="GitHub Stars" />
-    </a>
-</p>
 
 <div align="center">
   <h2> LeetCode </h2>
