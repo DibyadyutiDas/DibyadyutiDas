@@ -14,8 +14,8 @@
   <a href="https://github.com/DibyadyutiDas?tab=stars">
     <img src="https://img.shields.io/github/stars/dibyadyutidas?style=flat-square&logo=github" alt="GitHub Stars" />
   </a> 
-  <!-- Email Badge -->
-  <a href="mailto:dibyadyutidas@gmail.com">
+   <!-- Email Badge -->
+  <a href="mailto:dibyadyutidas0@gmail.com">
     <img src="https://img.shields.io/badge/Email-Me-blueviolet?style=flat-square&logo=gmail&logoColor=white" alt="Email Me" />
   </a>
 </p>
