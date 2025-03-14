@@ -138,9 +138,6 @@
         <a href="https://leetcode.com/Dibyadyuti_Das/" target="_blank">
           <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="LeetCode 50" height="100" width="100" />
         </a>
-        <a href="https://leetcode.com/Dibyadyuti_Das/" target="_blank">
-          <img src="https://assets.leetcode.com/static_assets/marketing/2024-02.gif" alt="February 2025" height="100" width="100" />
-        </a>
       </td>
       <!-- LeetCode Profile Card -->
       <td>
