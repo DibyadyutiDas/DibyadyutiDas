@@ -34,31 +34,33 @@
 - 👨‍💻 Portfolio: [Dibyadyuti/Portfolio](https://dibyadyutidas.github.io/portfolio/)
 - 📧 Email: **dibyadyutidas0@gmail.com**
  
-<img src="https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/new-year-party.gif" width="60"> <em><b> I love meeting new people and exchanging ideas! If you’d like to say hi, I’d be happy to connect and have a great conversation!</b> 😊</em>
-
 ---
 
-<h3 align="center">Connect with Me</h3>
-<p align="center">
+<div align="center">
+
+###  **Connect with Me**  
+<p>
     <a href="https://linkedin.com/in/dibyadytutidas" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" />
+        <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" />
     </a>
     <a href="https://github.com/DibyadyutiDas" target="_blank">
         <img src="https://img.icons8.com/glyph-neue/48/github.png" alt="GitHub" />
     </a>
     <a href="https://leetcode.com/u/Dibyadyuti_Das/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" height="40" width="40" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" height="40" width="40" />
     </a>
     <a href="https://fb.com/dibyadytutidas" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+        <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook" />
     </a>
     <a href="https://instagram.com/d_i_b_y_a_d_y_u_t_i_" target="_blank">
-        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" />
+        <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram" />
     </a>
     <a href="https://www.youtube.com/c/d_i_b_y_a_d_y_u_t_i" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube" />
+        <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
     </a>
 </p>
+
+</div>
 
 ---
 
