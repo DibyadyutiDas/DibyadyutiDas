@@ -12,18 +12,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Fetch & Update Projects in README
-        uses: jacc/github-profile-projects@main
+      - name: Fetch Latest Repositories & Update README
+        uses: lowlighter/metrics@latest
         with:
-          username: DibyadyutiDas
-          max_repos: 6
-          table_header: true
-          include_forks: false
-
-      - name: Commit & Push Changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Updated project list in README"
-          git push
+          filename: README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: repositories
+          plugin_repositories: yes
+          plugin_repositories_pinned: yes
+          plugin_repositories_featured: yes
