@@ -1,7 +1,7 @@
 ![MasterHead](https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/Beige%20Aesthetic%20Minimalist%20Business%20Real%20Estate%20Facebook%20Cover.png)
 
-<h1 align="center">Hi 👋, I'm Dibyadyuti Das</h1>
-<h3 align="center">A Passionate Developer from India </h3>
+<h1 align="center">Hi <img src="https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/hii.gif" width="30">, I'm Dibyadyuti Das</h1>
+<h3 align="center">A Passionate Developer from India <img src="https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/cat.gif" width="45" ></h3> 
 
 <p align="center">
   <!-- Profile Views -->
