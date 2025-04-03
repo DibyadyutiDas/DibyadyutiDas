@@ -33,6 +33,7 @@
 ### 🌐 Explore More
 - 👨‍💻 Portfolio: [Dibyadyuti/Portfolio](https://dibyadyutidas.github.io/portfolio/)
 - 📧 Email: **dibyadyutidas0@gmail.com**
+<img src="https://github.com/DibyadyutiDas/DibyadyutiDas/blob/main/new-year-party.gif" width="60"> <em><b> I love meeting new people and exchanging ideas! If you’d like to say hi, I’d be happy to connect and have a great conversation!</b> 😊</em>
 
 ---
 
@@ -154,6 +155,7 @@
 
 <div align="center">
 <h3 align="center"> 📌 My Projects </h3>
+  
 <table>
   <tr>
     <th>🚀 Project</th>
@@ -161,7 +163,19 @@
     <th>🏷 Language</th>
     <th>⭐ Stars</th>
   </tr>
-  <!-- BLOG-POST-LIST:START -->
-  <!-- BLOG-POST-LIST:END -->
+  <!-- PROJECT-LIST:START -->
+  <!-- PROJECT-LIST:END -->
 </table>
+
+
+  ## 🚀 My GitHub Stats
+
+![GitHub Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DibyadyutiDas&theme=dark)
+
+![Languages by Repo](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DibyadyutiDas&theme=dark)
+![Languages by Commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DibyadyutiDas&theme=dark)
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DibyadyutiDas&theme=dark)
+![Commit Productivity](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DibyadyutiDas&theme=dark&utcOffset=8)
+
+
 </div>
