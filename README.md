@@ -144,19 +144,7 @@
 ---
 
 <!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-## My GitHub Projects
+echo "<h2 align='center'>My GitHub Projects</h2>" >> $TEMP_FILE
 | 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |
 | --- | --- | --- | --- | --- |
 | Digital_Detox | No description available | [Link](https://github.com/DibyadyutiDas/Digital_Detox) | N/A | 0 |
