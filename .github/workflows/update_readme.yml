@@ -14,6 +14,8 @@ jobs:
 
       - name: Update README with projects
         run: |
+          set -e  # Exit immediately if a command exits with a non-zero status
+          
           # Define the start and end markers for the project section
           START_MARKER="<!-- START PROJECTS -->"
           END_MARKER="<!-- END PROJECTS -->"
@@ -78,4 +80,6 @@ jobs:
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
-          git config
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README with
