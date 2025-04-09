@@ -26,10 +26,12 @@ jobs:
           echo "| --- | --- | --- | --- | --- |" >> $TEMP_FILE
           
           # List of project names to include
-          PROJECTS=("group-buying-platform" "custom-handwriting-converter" "Ludo_game" "Digital Detox" "Food finder")
+          PROJECTS=("Digital_Detox" "Ludo_game" "Food-finder" "group-buying-platform" "custom-handwriting-converter")
 
           # Fetch project details and append to the temporary file
           repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
+          echo "API Response: $repos"  # Debug: Print the API response
+
           if [[ $(echo "$repos" | jq 'type') == '"array"' ]]; then
             for project in "${PROJECTS[@]}"; do
               # Fetch the repository details for each project
@@ -40,8 +42,13 @@ jobs:
                 lang=$(echo "$repo" | jq -r '.language // "N/A"')
                 stars=$(echo "$repo" | jq -r '.stargazers_count // 0')
                 
+                # Format the repository link
+                repo_link="[Link](https://github.com/DibyadyutiDas/$name)"
+                
                 # Add the project to the temporary file
-                echo "| $name | $desc | [Link](https://github.com/DibyadyutiDas/$name) | $lang | $stars |" >> $TEMP_FILE
+                echo "| $name | $desc | $repo_link | $lang | $stars |" >> $TEMP_FILE
+              else
+                echo "Warning: Project '$project' not found in repositories."  # Debug: Print a warning if the project is not found
               fi
             done
           else
