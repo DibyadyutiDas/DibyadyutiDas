@@ -172,10 +172,35 @@
 
 
 <!-- START PROJECTS -->
+<!-- START PROJECTS -->
 ## My GitHub Projects
-# My GitHub Projects
+| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |
+| --- | --- | --- | --- | --- |
+| 3d | null | [Link](https://github.com/DibyadyutiDas/3d) | CSS | 4 |
+| awesome-github-profile-readme | 😎 A curated list of awesome GitHub Profile which updates in real time  | [Link](https://github.com/DibyadyutiDas/awesome-github-profile-readme) | null | 0 |
+| bank_app | Bank App in Java 💳💻  I This simple CLI project handles basic banking operations like user login, deposit, withdraw, and balance checking. Tech Used:  Java (Core OOP Concepts)  File Handling / In-Memory Data  🎯 . | [Link](https://github.com/DibyadyutiDas/bank_app) | Java | 1 |
+| best-github-profile-readme | Curated list of beautiful and unique GitHub Profile Readme markdown files | [Link](https://github.com/DibyadyutiDas/best-github-profile-readme) | null | 0 |
+| c | c programs | [Link](https://github.com/DibyadyutiDas/c) | C | 4 |
+| code | null | [Link](https://github.com/DibyadyutiDas/code) | null | 4 |
+| cpp | null | [Link](https://github.com/DibyadyutiDas/cpp) | C++ | 4 |
+| custom-handwriting-converter | This project is an AI-powered web service that takes input text and converts it into a user’s personalized handwriting style. | [Link](https://github.com/DibyadyutiDas/custom-handwriting-converter) | null | 4 |
+| DibyadyutiDas | null | [Link](https://github.com/DibyadyutiDas/DibyadyutiDas) | Python | 4 |
+| Digital_Detox | null | [Link](https://github.com/DibyadyutiDas/Digital_Detox) | null | 0 |
+| dsa | null | [Link](https://github.com/DibyadyutiDas/dsa) | null | 4 |
+| first-contributions | 🚀✨ Help beginners to contribute to open source projects | [Link](https://github.com/DibyadyutiDas/first-contributions) | null | 0 |
+| Food-finder | null | [Link](https://github.com/DibyadyutiDas/Food-finder) | null | 2 |
+| group-buying-platform | null | [Link](https://github.com/DibyadyutiDas/group-buying-platform) | null | 2 |
+| java | null | [Link](https://github.com/DibyadyutiDas/java) | Java | 4 |
+| javap | null | [Link](https://github.com/DibyadyutiDas/javap) | Java | 3 |
+| LeetCode-Badges | This repository aims to compile an exhaustive list of LeetCode badges. | [Link](https://github.com/DibyadyutiDas/LeetCode-Badges) | null | 0 |
+| ludo_game | A simple Ludo game built using C++ | [Link](https://github.com/DibyadyutiDas/ludo_game) | C++ | 2 |
+| organicmaps | This is a mirror, please contribute to the main repository: https://git.omaps.dev/organicmaps/organicmaps | [Link](https://github.com/DibyadyutiDas/organicmaps) | null | 0 |
+| phy | null | [Link](https://github.com/DibyadyutiDas/phy) | null | 1 |
+| portfolio | null | [Link](https://github.com/DibyadyutiDas/portfolio) | HTML | 5 |
+| practical | null | [Link](https://github.com/DibyadyutiDas/practical) | Java | 4 |
+| project_img | null | [Link](https://github.com/DibyadyutiDas/project_img) | null | 1 |
+| second | null | [Link](https://github.com/DibyadyutiDas/second) | null | 3 |
+| synfig | This is the Official source code repository of Synfig Studio animation software | [Link](https://github.com/DibyadyutiDas/synfig) | null | 0 |
+| vscode | Visual Studio Code | [Link](https://github.com/DibyadyutiDas/vscode) | null | 4 |
+<!-- END PROJECTS -->
 
-
-| Project Name | Description | Repository Link |
-|--------------|-------------|------------------|
-| project_img | No description available | [Link](https://github.com/DibyadyutiDas/project_img) |
