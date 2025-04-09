@@ -171,25 +171,5 @@
 </div>
 
 
-# My GitHub Projects
-
-
-| Project Name | Description | Repository Link |
-|--------------|-------------|------------------|
-| bank_app | Bank App in Java 💳💻  I This simple CLI project handles basic banking operations like user login, deposit, withdraw, and balance checking. Tech Used:  Java (Core OOP Concepts)  File Handling / In-Memory Data  🎯 . | [Link](https://github.com/DibyadyutiDas/bank_app) |
-| custom-handwriting-converter | This project is an AI-powered web service that takes input text and converts it into a user’s personalized handwriting style. | [Link](https://github.com/DibyadyutiDas/custom-handwriting-converter) |
-| Digital_Detox | No description available | [Link](https://github.com/DibyadyutiDas/Digital_Detox) |
-| Food-finder | No description available | [Link](https://github.com/DibyadyutiDas/Food-finder) |
-| group-buying-platform | No description available | [Link](https://github.com/DibyadyutiDas/group-buying-platform) |
-| LeetCode-Badges | This repository aims to compile an exhaustive list of LeetCode badges. | [Link](https://github.com/DibyadyutiDas/LeetCode-Badges) |
-| ludo_game | A simple Ludo game built using C++ | [Link](https://github.com/DibyadyutiDas/ludo_game) |
-| portfolio | No description available | [Link](https://github.com/DibyadyutiDas/portfolio) |
-| synfig | This is the Official source code repository of Synfig Studio animation software | [Link](https://github.com/DibyadyutiDas/synfig) |
-| vscode | Visual Studio Code | [Link](https://github.com/DibyadyutiDas/vscode) |
-
-# My GitHub Projects
-
-
-| Project Name | Description | Repository Link |
-|--------------|-------------|------------------|
-| project_img | No description available | [Link](https://github.com/DibyadyutiDas/project_img) |
+<!-- START PROJECTS -->
+## My GitHub Projects
