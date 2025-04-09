@@ -30,6 +30,11 @@ jobs:
 
           # Fetch project details and append to the temporary file
           repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
+          if [[ $? -ne 0 ]]; then
+            echo "Error fetching repositories"
+            exit 1
+          fi
+
           if [[ $(echo "$repos" | jq 'type') == '"array"' ]]; then
             for project in "${PROJECTS[@]}"; do
               # Fetch the repository details for each project
@@ -43,6 +48,11 @@ jobs:
                 # Check for projects associated with the repository
                 projects_url=$(echo "$repo" | jq -r '.projects_url' | sed 's/{.*}//')  # Remove the template part
                 projects_data=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "$projects_url")
+                if [[ $? -ne 0 ]]; then
+                  echo "Error fetching projects for $name"
+                  continue
+                fi
+
                 project_count=$(echo "$projects_data" | jq 'length')
 
                 # Add the project to the temporary file
@@ -57,16 +67,15 @@ jobs:
           echo "$END_MARKER" >> $TEMP_FILE
 
           # Replace the project section in the README
-          sed -i.bak "/$START_MARKER/,/$END_MARKER/{ /$START_MARKER/! { /$END_MARKER/! d; } }" README.md
+          if ! sed -i.bak "/$START_MARKER/,/$END_MARKER/{ /$START_MARKER/! { /$END_MARKER/! d; } }" README.md; then
+            echo "Error: sed command failed"
+            exit 1
+          fi
+
           cat $TEMP_FILE >> README.md
           echo "" >> README.md  # Add a newline after the projects section
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update README with latest projects"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config
