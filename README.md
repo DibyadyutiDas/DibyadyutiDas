@@ -153,6 +153,9 @@
 <!-- END PROJECTS -->
 
 <!-- START PROJECTS -->
+<!-- END PROJECTS -->
+
+<!-- START PROJECTS -->
 ## My GitHub Projects
 | 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |
 | --- | --- | --- | --- | --- |
@@ -160,6 +163,6 @@
 | ludo_game | A simple Ludo game built using C++ | [Link](https://github.com/DibyadyutiDas/ludo_game) | C++ | 2 |
 | Food-finder | No description available | [Link](https://github.com/DibyadyutiDas/Food-finder) | N/A | 2 |
 | group-buying-platform | No description available | [Link](https://github.com/DibyadyutiDas/group-buying-platform) | N/A | 2 |
-| custom-handwriting-converter | This project is an AI-powered web service that takes input text and converts it into a user’s personalized handwriting style. | [Link](https://github.com/DibyadyutiDas/custom-handwriting-converter) | N/A | 4 |
+| custom-handwriting | This project is an AI-powered web service that takes input text and converts it into a user’s personalized handwriting style. | [Link](https://github.com/DibyadyutiDas/custom-handwriting) | N/A | 4 |
 <!-- END PROJECTS -->
 
