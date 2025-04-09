@@ -179,6 +179,9 @@
 <!-- END PROJECTS -->
 
 <!-- START PROJECTS -->
+<!-- END PROJECTS -->
+
+<!-- START PROJECTS -->
 ## My GitHub Projects
 | 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |
 | --- | --- | --- | --- | --- |
