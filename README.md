@@ -173,3 +173,9 @@
 
 <!-- START PROJECTS -->
 ## My GitHub Projects
+# My GitHub Projects
+
+
+| Project Name | Description | Repository Link |
+|--------------|-------------|------------------|
+| project_img | No description available | [Link](https://github.com/DibyadyutiDas/project_img) |
