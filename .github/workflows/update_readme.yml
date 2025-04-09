@@ -41,12 +41,10 @@ jobs:
           
           echo "$END_MARKER" >> $TEMP_FILE
 
-          # Read the existing README and replace the project section
-          awk -v start="$START_MARKER" -v end="$END_MARKER" -v temp="$TEMP_FILE" '
-          $0 ~ start { print; system("cat " temp; next) }
-          $0 ~ end { next }
-          { print }
-          ' README.md > README.tmp && mv README.tmp README.md
+          # Replace the project section in the README
+          sed -i.bak "/$START_MARKER/,/$END_MARKER/{ /$START_MARKER/! { /$END_MARKER/! d; } }" README.md
+          cat $TEMP_FILE >> README.md
+          echo "" >> README.md  # Add a newline after the projects section
 
       - name: Commit changes
         run: |
