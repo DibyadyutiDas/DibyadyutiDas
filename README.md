@@ -129,31 +129,14 @@
 
 ---
 
-<h3 align="center"> LeetCode </h3>
-<div align="center">
-  <table>
-    <tr align="center">
-        <!-- LeetCode Badges -->
-      <td>
-        <a href="https://leetcode.com/Dibyadyuti_Das/" target="_blank">
-          <img src="https://assets.leetcode.com/static_assets/marketing/2024-100-new.gif" alt="LeetCode 100" height="100" width="100" />
-        </a>
-        <a href="https://leetcode.com/Dibyadyuti_Das/" target="_blank">
-          <img src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="LeetCode 50" height="100" width="100" />
-        </a>
-      </td>
-      <!-- LeetCode Profile Card -->
-      <td>
-        <a href="https://leetcode.com/Dibyadyuti_Das/" target="_blank">
-          <img src="https://leetcard.jacoblin.cool/Dibyadyuti_Das?theme=dark&font=Nunito&ext=contest" 
-               alt="LeetCode Stats" 
-               style="border-radius: 10px; box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
-</div>
+<!-- START PROJECTS -->
+<h3 align="center"> My GitHub Projects </h3>
+| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |
+| --- | --- | --- | --- | --- |
+| ludo_game | A simple Ludo game built using C++ | [Link](https://github.com/DibyadyutiDas/ludo_game) | C++ | 2 |
+| group-buying-platform | No description available | [Link](https://github.com/DibyadyutiDas/group-buying-platform) | N/A | 2 |
+| custom-handwriting-converter | This project is an AI-powered web service that takes input text and converts it into a user’s personalized handwriting style. | [Link](https://github.com/DibyadyutiDas/custom-handwriting-converter) | N/A | 4 |
+<!-- END PROJECTS -->
 
 ---
 
@@ -169,24 +152,4 @@
 
 
 </div>
-
-
-<!-- START PROJECTS -->
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
-<!-- START PROJECTS -->
-## My GitHub Projects
-| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |
-| --- | --- | --- | --- | --- |
-| ludo_game | A simple Ludo game built using C++ | [Link](https://github.com/DibyadyutiDas/ludo_game) | C++ | 2 |
-| group-buying-platform | No description available | [Link](https://github.com/DibyadyutiDas/group-buying-platform) | N/A | 2 |
-| custom-handwriting-converter | This project is an AI-powered web service that takes input text and converts it into a user’s personalized handwriting style. | [Link](https://github.com/DibyadyutiDas/custom-handwriting-converter) | N/A | 4 |
-<!-- END PROJECTS -->
 
