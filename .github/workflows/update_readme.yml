@@ -29,10 +29,13 @@ jobs:
           repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
           if [[ $(echo "$repos" | jq 'type') == '"array"' ]]; then
             for repo in $(echo "$repos" | jq -r '.[].name'); do
-              desc=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .description')
-              lang=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .language')
-              stars=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .stargazers_count')
-              echo "| $repo | $desc | [Link](https://github.com/DibyadyutiDas/$repo) | $lang | $stars |" >> $TEMP_FILE
+              # Filter projects based on a specific keyword in the name
+              if [[ "$repo" == *"project"* ]]; then  # Change "project" to your desired keyword
+                desc=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .description')
+                lang=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .language')
+                stars=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .stargazers_count')
+                echo "| $repo | $desc | [Link](https://github.com/DibyadyutiDas/$repo) | $lang | $stars |" >> $TEMP_FILE
+              fi
             done
           else
             echo "Error: Expected an array but got $(echo "$repos" | jq 'type')"
