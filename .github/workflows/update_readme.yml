@@ -63,12 +63,16 @@ jobs:
           cat $TEMP_FILE >> README.md
           echo "" >> README.md  # Add a newline after the projects section
 
-      - name: Commit changes
+      - name: Pull latest changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull origin main
+
+      - name: Commit and push changes
+        run: |
           git add README.md
           git commit -m "Update README with latest projects"
-          git push
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
