@@ -21,8 +21,8 @@ jobs:
           # Create a temporary file to hold the new project table
           TEMP_FILE="temp_projects.md"
           echo "$START_MARKER" > $TEMP_FILE
-          echo "## My GitHub Projects" >> $TEMP_FILE
-          echo "| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |" >> $TEMP_FILE
+          echo "<h2 align='center'>My GitHub Projects</h2>" >> $TEMP_FILE
+          echo "| 🚀 Project Name | 📄 Description | Repository Link | 🏷 Language | ⭐ Stars |" >> $TEMP_FILE
           echo "| --- | --- | --- | --- | --- |" >> $TEMP_FILE
           
           # List of project names to include
@@ -40,8 +40,13 @@ jobs:
                 lang=$(echo "$repo" | jq -r '.language // "N/A"')
                 stars=$(echo "$repo" | jq -r '.stargazers_count // 0')
                 
+                # Check for projects associated with the repository
+                projects_url=$(echo "$repo" | jq -r '.projects_url' | sed 's/{.*}//')  # Remove the template part
+                projects_data=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "$projects_url")
+                project_count=$(echo "$projects_data" | jq 'length')
+
                 # Add the project to the temporary file
-                echo "| $name | $desc | [Link](https://github.com/DibyadyutiDas/$name) | $lang | $stars |" >> $TEMP_FILE
+                echo "| $name | $desc | [Link](https://github.com/DibyadyutiDas/$name) | $lang | $stars | Projects: $project_count |" >> $TEMP_FILE
               fi
             done
           else
