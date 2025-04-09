@@ -26,7 +26,7 @@ jobs:
           echo "| --- | --- | --- | --- | --- |" >> $TEMP_FILE
           
           # List of project names to include
-          PROJECTS=("Digital_Detox" "Ludo_game" "Food-finder" "group-buying-platform" "custom-handwriting-converter")
+          PROJECTS=("Digital_Detox" "Ludo_game" "Food-finder" "group-buying-platform" "custom-handwriting")
 
           # Fetch project details and append to the temporary file
           repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
