@@ -25,16 +25,23 @@ jobs:
           echo "| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |" >> $TEMP_FILE
           echo "| --- | --- | --- | --- | --- |" >> $TEMP_FILE
           
+          # List of project names to include
+          PROJECTS=("Digital Detox Roadmap" "Ludo_game" "Food finder" "group-buying-platform" "custom-handwriting-converter")
+
           # Fetch project details and append to the temporary file
           repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
           if [[ $(echo "$repos" | jq 'type') == '"array"' ]]; then
-            for repo in $(echo "$repos" | jq -r '.[].name'); do
-              # Filter projects based on a specific keyword in the name
-              if [[ "$repo" == *"project"* ]]; then  # Change "project" to your desired keyword
-                desc=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .description')
-                lang=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .language')
-                stars=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .stargazers_count')
-                echo "| $repo | $desc | [Link](https://github.com/DibyadyutiDas/$repo) | $lang | $stars |" >> $TEMP_FILE
+            for project in "${PROJECTS[@]}"; do
+              # Fetch the repository details for each project
+              repo=$(echo "$repos" | jq -r --arg project "$project" '.[] | select(.name | test($project; "i"))')
+              if [[ -n "$repo" ]]; then
+                name=$(echo "$repo" | jq -r '.name')
+                desc=$(echo "$repo" | jq -r '.description // "No description available"')
+                lang=$(echo "$repo" | jq -r '.language // "N/A"')
+                stars=$(echo "$repo" | jq -r '.stargazers_count // 0')
+                
+                # Add the project to the temporary file
+                echo "| $name | $desc | [Link](https://github.com/DibyadyutiDas/$name) | $lang | $stars |" >> $TEMP_FILE
               fi
             done
           else
