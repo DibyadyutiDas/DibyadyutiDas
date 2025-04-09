@@ -1,0 +1,36 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if it's not 'main'
+  schedule:
+    - cron: '0 0 * * *'  # This runs the workflow every day at midnight UTC
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Use the latest version of Python
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run script to update README
+        run: |
+          python generate_markdown.py  # Ensure your script is in the root directory or adjust the path
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "you@example.com"  # Replace with your email
+          git config --local user.name "Your Name"  # Replace with your name
+          git add README.md
+          git commit -m "Update README with latest project info" || echo "No changes to commit"
+          git push
