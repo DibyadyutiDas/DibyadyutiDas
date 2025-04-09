@@ -129,11 +129,6 @@
 
 ---
 
-<!-- START PROJECTS -->
-<!-- END PROJECTS -->
-
----
-
 <h3 align="center"> My GitHub Stats </h3>
 <div align="center">
 
@@ -144,8 +139,9 @@
 ![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DibyadyutiDas&theme=dark)
 ![Commit Productivity](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DibyadyutiDas&theme=dark&utcOffset=8)
 
-
 </div>
+
+---
 
 <!-- START PROJECTS -->
 ## My GitHub Projects
