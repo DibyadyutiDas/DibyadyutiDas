@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main  # Change this to your default branch if it's not 'main'
-  schedule:
-    - cron: '0 0 * * *'  # This runs the workflow every day at midnight UTC
 
 jobs:
   update-readme:
@@ -14,23 +12,48 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'  # Use the latest version of Python
-
-      - name: Install dependencies
+      - name: Update README with projects
         run: |
-          pip install requests
+          # Define the start and end markers for the project section
+          START_MARKER="<!-- START PROJECTS -->"
+          END_MARKER="<!-- END PROJECTS -->"
 
-      - name: Run script to update README
-        run: |
-          python generate_markdown.py  # Ensure your script is in the root directory
+          # Create a temporary file to hold the new project table
+          TEMP_FILE="temp_projects.md"
+          echo "$START_MARKER" > $TEMP_FILE
+          echo "## My GitHub Projects" >> $TEMP_FILE
+          echo "| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |" >> $TEMP_FILE
+          echo "| --- | --- | --- | --- | --- |" >> $TEMP_FILE
+          
+          # Fetch project details and append to the temporary file
+          repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
+          if [[ $(echo "$repos" | jq 'type') == '"array"' ]]; then
+            for repo in $(echo "$repos" | jq -r '.[].name'); do
+              desc=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .description')
+              lang=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .language')
+              stars=$(echo "$repos" | jq -r --arg repo "$repo" '.[] | select(.name == $repo) | .stargazers_count')
+              echo "| $repo | $desc | [Link](https://github.com/DibyadyutiDas/$repo) | $lang | $stars |" >> $TEMP_FILE
+            done
+          else
+            echo "Error: Expected an array but got $(echo "$repos" | jq 'type')"
+            exit 1
+          fi
+          
+          echo "$END_MARKER" >> $TEMP_FILE
 
-      - name: Commit and push changes
+          # Read the existing README and replace the project section
+          awk -v start="$START_MARKER" -v end="$END_MARKER" -v temp="$TEMP_FILE" '
+          $0 ~ start { print; system("cat " temp; next) }
+          $0 ~ end { next }
+          { print }
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit changes
         run: |
-          git config --local user.email "you@example.com"  # Replace with your email
-          git config --local user.name "Your Name"  # Replace with your name
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Update README with latest project info" || echo "No changes to commit"
+          git commit -m "Update README with latest projects"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
