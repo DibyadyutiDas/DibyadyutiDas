@@ -21,12 +21,12 @@ jobs:
           # Create a temporary file to hold the new project table
           TEMP_FILE="temp_projects.md"
           echo "$START_MARKER" > $TEMP_FILE
-          echo "## My GitHub Projects" >> $TEMP_FILE
+          echo "<h2 align='center'>My GitHub Projects</h2>" >> $TEMP_FILE
           echo "| 🚀Project Name | 📄Description | Repository Link | 🏷Language | ⭐Stars |" >> $TEMP_FILE
           echo "| --- | --- | --- | --- | --- |" >> $TEMP_FILE
           
           # List of project names to include
-          PROJECTS=("Digital_Detox" "Ludo_game" "Food-finder" "group-buying-platform" "custom-handwriting")
+          PROJECTS=("Digital_Detox" "Ludo_game" "Food-finder" "group-buying-platform" "custom-handwriting-converter")
 
           # Fetch project details and append to the temporary file
           repos=$(curl -s https://api.github.com/users/DibyadyutiDas/repos)
