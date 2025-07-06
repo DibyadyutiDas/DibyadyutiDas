@@ -31,7 +31,7 @@
 - 💡 Open to **Innovative Ideas and Opportunities**
 
 ### 🌐 Explore More
-- 👨‍💻 Portfolio: [Dibyadyuti/Portfolio](https://dibyadyutidas.github.io/portfolio/)
+- 👨‍💻 Portfolio: [Dibyadyuti.me](https://dibyadyuti.me/)
 - 📧 Email: **dibyadyutidas0@gmail.com**
  
 ---
