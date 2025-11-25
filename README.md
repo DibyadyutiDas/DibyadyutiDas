@@ -77,26 +77,26 @@
     <a href="https://www.java.com/" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=java" alt="Java" />
     </a>
-    <a href="https://www.python.org/" target="_blank" style="text-decoration: none;">
-        <img src="https://skillicons.dev/icons?i=python" alt="Python" />
-    </a>
 </div>
 
 <div align="center">
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="text-decoration: none;">
+    <!-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" style="text-decoration: none;">
+    </a> -->
+    <!-- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
-    </a>
+    </a> -->
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
     </a>
-    <a href="https://nodejs.org/" target="_blank" style="text-decoration: none;">
+    <!-- <a href="https://nodejs.org/" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
-    </a>
+    </a> -->
     <a href="https://react.dev/" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=react" alt="React.js" />
+    </a>
+    <a href="https://www.python.org/" target="_blank" style="text-decoration: none;">
+        <img src="https://skillicons.dev/icons?i=python" alt="Python" />
     </a>
     <a href="https://www.mysql.com/" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
