@@ -37,26 +37,23 @@
 ---
 
 <div align="center">
-
-###  **Connect with Me**  
+  
+### **Connect with Me**
 <p>
-    <a href="https://linkedin.com/in/dibyadytutidas" target="_blank">
-        <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" />
+    <a href="mailto:dibyadyutidas0@gmail.com" target="_blank">
+        <img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" />
     </a>
-    <a href="https://github.com/DibyadyutiDas" target="_blank">
-        <img src="https://img.icons8.com/glyph-neue/48/github.png" alt="GitHub" />
+    <a href="https://linkedin.com/in/dibyadytutidas" target="_blank">
+      <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" />
     </a>
     <a href="https://leetcode.com/u/Dibyadyuti_Das/" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" height="40" width="40" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" height="40" width="40" />
     </a>
     <a href="https://fb.com/dibyadytutidas" target="_blank">
         <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook" />
     </a>
-    <a href="https://instagram.com/d_i_b_y_a_d_y_u_t_i_" target="_blank">
-        <img src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram" />
-    </a>
-    <a href="https://www.youtube.com/c/d_i_b_y_a_d_y_u_t_i" target="_blank">
-        <img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube" />
+    <a href="https://github.com/DibyadyutiDas" target="_blank">
+        <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
     </a>
 </p>
 
@@ -120,7 +117,7 @@
         <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" />
     </a>
     <a href="https://www.linux.org/" target="_blank" style="text-decoration: none;">
-        <img src="https://skillicons.dev/icons?i=linux" alt="Linux" />
+        <img src="https://skillicons.dev/icons?i=kali" alt="Kali" />
     </a>
     <a href="https://www.microsoft.com/en-us/windows" target="_blank" style="text-decoration: none;">
         <img src="https://skillicons.dev/icons?i=windows" alt="Windows" />
